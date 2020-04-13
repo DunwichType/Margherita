@@ -1,2 +1,2 @@
 # Contributing
-Dunwich Type Founders cares what you think! Please file issues on the Github project issue tracker, at https://github.com/DunwichType/RhodiumLibre/issues or contact us privately at rhodiumfonts@gmail.com
+Dunwich Type Founders cares what you think! Please file issues on the Github project issue tracker, at https://github.com/DunwichType/Margherita/issues or contact us privately at james.puckett@gmail.com
