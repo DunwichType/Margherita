@@ -1,10 +1,7 @@
 {
-.appVersion = "1306";
+.appVersion = "1313";
 DisplayStrings = (
-"&",
-"&/ampersand.ss08",
-"/liraTurkish/ruble",
-"/abrevegrave/abrevehookabove/abrevetilde/acircumflexacute/acircumflexgrave/ocircumflexacute/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde/ohornacute/ohornhookabove/ohorntilde \012/brevecomb/acutecomb/brevecomb_acutecomb/gravecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb"
+A
 );
 classes = (
 {
@@ -40,6 +37,10 @@ value = (
 {
 name = trademark;
 value = "Rhodium is a trademark of Dunwich Type Founders";
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2020-04-13 20:23:13 +0000";
@@ -158,6 +159,40 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 680;
+customParameters = (
+{
+name = typoAscender;
+value = 1110;
+},
+{
+name = hheaAscender;
+value = 1110;
+},
+{
+name = winAscent;
+value = 1110;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = typoDescender;
+value = -250;
+},
+{
+name = winDescent;
+value = 250;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 descender = -150;
 horizontalStems = (
 32,
@@ -192,6 +227,40 @@ alignmentZones = (
 ascender = 800;
 capHeight = 680;
 custom = Black;
+customParameters = (
+{
+name = typoAscender;
+value = 1110;
+},
+{
+name = hheaAscender;
+value = 1110;
+},
+{
+name = winAscent;
+value = 1110;
+},
+{
+name = hheaDescender;
+value = -250;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = typoDescender;
+value = -250;
+},
+{
+name = winDescent;
+value = 250;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 descender = -150;
 horizontalStems = (
 78,
@@ -1716,7 +1785,7 @@ unicode = 0100;
 },
 {
 glyphname = Aogonek;
-lastChange = "2018-11-07 20:56:52 +0000";
+lastChange = "2020-04-14 03:23:04 +0000";
 layers = (
 {
 components = (
