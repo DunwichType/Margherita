@@ -1,8 +1,7 @@
 {
 .appVersion = "1313";
 DisplayStrings = (
-"/acutecomb.case",
-"/null"
+"/cedillacomb"
 );
 classes = (
 {
@@ -79962,7 +79961,7 @@ unicode = 0326;
 },
 {
 glyphname = cedillacomb;
-lastChange = "2020-04-18 17:25:18 +0000";
+lastChange = "2020-04-18 17:41:22 +0000";
 layers = (
 {
 anchors = (
@@ -80160,34 +80159,13 @@ nodes = (
 }
 );
 };
-guideLines = (
-{
-angle = 67.1533;
-position = "{175, -161}";
-},
-{
-position = "{109, -40}";
-}
-);
 layerId = "79669AF3-7E96-4900-AB6D-33745B934CAA";
 paths = (
 {
 closed = 1;
 nodes = (
-"285 -186 OFFCURVE",
-"324 -165 OFFCURVE",
-"324 -116 CURVE SMOOTH",
-"324 -70 OFFCURVE",
-"298 -43 OFFCURVE",
-"236 -43 CURVE SMOOTH",
-"234 -43 OFFCURVE",
-"230 -43 OFFCURVE",
-"222 -45 CURVE",
-"231 -68 LINE",
-"292 10 LINE",
 "246 10 LINE",
-"171 -82 LINE",
-"165 -49 LINE",
+"184 -67 LINE",
 "204 -86 LINE",
 "209 -84 OFFCURVE",
 "218 -82 OFFCURVE",
@@ -80201,11 +80179,17 @@ nodes = (
 "210 -138 OFFCURVE",
 "194 -134 OFFCURVE",
 "175 -124 CURVE",
-"152 -177 LINE",
-"153 -167 LINE",
-"176 -181 OFFCURVE",
-"196 -186 OFFCURVE",
-"229 -186 CURVE SMOOTH"
+"156 -169 LINE",
+"178 -181 OFFCURVE",
+"197 -186 OFFCURVE",
+"229 -186 CURVE SMOOTH",
+"285 -186 OFFCURVE",
+"324 -165 OFFCURVE",
+"324 -116 CURVE SMOOTH",
+"324 -74 OFFCURVE",
+"302 -47 OFFCURVE",
+"250 -44 CURVE",
+"292 10 LINE"
 );
 }
 );
@@ -80213,6 +80197,7 @@ width = 500;
 }
 );
 unicode = 0327;
+changeCount = 2;
 },
 {
 glyphname = ogonekcomb;
