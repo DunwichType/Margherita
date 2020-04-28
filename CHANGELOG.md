@@ -1,7 +1,7 @@
 # Margherita Typeface Changelog
 
 
-###1.108
+###1.008
 Made adjustments to improve legibility on screens.t
 
 Acute and caron are no longer flipped components. Mac OS was rendering the flipped components lighter than they really are because the outlines of the components were going in the wrong direction.
