@@ -1,5 +1,34 @@
 # Margherita Typeface Changelog
 
+
+###1.108
+Made adjustments to improve legibility on screens.t
+
+Acute and caron are no longer flipped components. Mac OS was rendering the flipped components lighter than they really are because the outlines of the components were going in the wrong direction.
+
+Grave in circumflexcomb_gravecomb and circumflexcomb_gravecomb.case has been moved to the right 
+
+Acute in ohornacute and Ohornacute has been moved to the left
+Hook in in ohornhookabove and Ohornhookabove has been moved to the left
+Tilde in in ohorntilde and Ohorntilde has been narrowed and moved to the left
+Raised tilde in brevecomb_tildecomb, brevecomb_tildecomb.case, circumflexcomb_tildecomb, and circumflexcomb_tildecomb.case.
+
+Decomposed tilde in brevecomb_tildecomb, brevecomb_tildecomb.case, circumflexcomb_tildecomb, and circumflexcomb_tildecomb.case. This is due to the tilde flying away in Mac OS as weight increased.
+
+Mark positions and widths have been adjusted in ğ ǧ ĝ ģ ġ 
+
+Increased distance of ť<character> kerns
+
+Reduced height (not position) of caron in ť
+
+Moved caron in ď ľ to the right
+
+arches in h n m r shaped glyphs now use the “serifs and crossbars” stem because assigning them their own stem value was making them too heavy in bold and black weights.
+
+removed interpolation instruction from ə Ə because it made the bar too heavy
+
+The heavy horizontal stroke of g now uses the serifs and crossbars stem. Renders lighter but still drops down too far on Windows. I don’t think this can be fixed.
+
 ###1.007
 
 Webfonts now use WOFF2 format.
