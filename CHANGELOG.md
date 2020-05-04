@@ -1,6 +1,15 @@
 # Margherita Typeface Changelog
 
 
+###1.009
+Acute in Udieresisacute was decomposed to keep it from rising as weight increases in variable font in Chrome on Mac.
+
+Position of weight and bar in Hbar.ss01 now matches Hbar
+
+Leg of registered now matches R
+
+Added Nhookleft.ss07
+
 ###1.008
 Made adjustments to improve legibility on screens.t
 
