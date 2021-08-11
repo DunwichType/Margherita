@@ -1,5 +1,5 @@
 {
-.appVersion = "1338";
+.appVersion = "3094";
 DisplayStrings = (
 "/brevecomb_tildecomb/abrevetilde/brevecomb_tildecomb.case/Abrevetilde \012/circumflexcomb_tildecomb/acircumflextilde/circumflexcomb_tildecomb.case/Acircumflextilde/Ecircumflextilde",
 "/space/Udieresisacute/space/Udieresiscaron/space/Udieresisgrave/space/Udieresismacron",
@@ -8,7 +8,7 @@ DisplayStrings = (
 "/eng/nhookleft/uhorn r",
 g,
 "/Udieresisacute",
-"/Nhookleft/Nhookleft.ss07"
+"HHY/ampersand.ss08 Y&HH"
 );
 classes = (
 {
@@ -20,30 +20,10 @@ name = Uppercase;
 copyright = "Copyright © 2020 by James Puckett. All rights reserved.";
 customParameters = (
 {
-name = vendorID;
-value = DTF;
-},
-{
-name = "Variable Font Family Name";
-value = "Margherita Variable";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
-{
 name = fsType;
 value = (
 3
 );
-},
-{
-name = trademark;
-value = "Margherita is a trademark of Dunwich Type Founders";
 },
 {
 name = "Use Typo Metrics";
@@ -58,6 +38,22 @@ value = {
 };
 },
 {
+name = vendorID;
+value = DTF;
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = trademark;
+value = "Margherita is a trademark of Dunwich Type Founders";
+},
+{
 name = Axes;
 value = (
 {
@@ -68,7 +64,11 @@ Tag = wght;
 },
 {
 name = note;
-value = "1.007\012Made the following changes to improve screen rending at small sizes.\012• Lowered crossbar of H in Ħ and increased the weight of the bar to match H.\012• Added TT instructions to Æ\012• Fixed TT instructions in Œ\012• Fixed TT instructions in ð so top doesn’t drop below cap height\012• Lowered top of arches, moved bar and increased its weight in đ and ħ\012• Added TT instructions to ₹\012• Raised tilde in brevecomb_tildecomb and brevecomb_tildecomb.case so they don’t smudge together in Windows.\012• Removed interpolation hints in M, a, x, v\012• Added anchors to serifs on C, G, S, ¥, \012• Removed all triple hints.\012• Removed diagonal hint from 3.\012• Added instructions to ×\012• ";
+value = "To Do\012Review <X>& kerns\012Put left side of amersand and ampersand .ss08 into one kern group.\012\0121.007\012Made the following changes to improve screen rending at small sizes.\012• Lowered crossbar of H in Ħ and increased the weight of the bar to match H.\012• Added TT instructions to Æ\012• Fixed TT instructions in Œ\012• Fixed TT instructions in ð so top doesn’t drop below cap height\012• Lowered top of arches, moved bar and increased its weight in đ and ħ\012• Added TT instructions to ₹\012• Raised tilde in brevecomb_tildecomb and brevecomb_tildecomb.case so they don’t smudge together in Windows.\012• Removed interpolation hints in M, a, x, v\012• Added anchors to serifs on C, G, S, ¥, \012• Removed all triple hints.\012• Removed diagonal hint from 3.\012• Added instructions to ×\012• ";
+},
+{
+name = "Variable Font Family Name";
+value = "Margherita Variable";
 }
 );
 date = "2020-04-28 21:16:48 +0000";
@@ -70597,7 +70597,7 @@ unicode = 0040;
 },
 {
 glyphname = ampersand;
-lastChange = "2020-04-28 02:04:45 +0000";
+lastChange = "2021-07-28 23:31:07 +0000";
 layers = (
 {
 background = {
@@ -77898,7 +77898,7 @@ width = 804;
 },
 {
 glyphname = ampersand.ss08;
-lastChange = "2020-04-18 20:08:54 +0000";
+lastChange = "2021-07-28 23:31:17 +0000";
 layers = (
 {
 background = {
@@ -85405,7 +85405,6 @@ instanceInterpolations = {
 "985FD43C-E2EB-4FA2-9714-12093F08C61F" = 0.81081;
 };
 name = Regular;
-weightClass = Normal;
 },
 {
 customParameters = (
@@ -85739,6 +85738,8 @@ x = -15;
 "@MMK_R_v" = -65;
 "@MMK_R_w" = -65;
 "@MMK_R_z" = -55;
+ampersand = -55;
+ampersand.ss08 = -55;
 at = -80;
 at.case = -25;
 ibreve = 20;
